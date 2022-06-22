@@ -25,7 +25,7 @@ class _MappageState extends State<Mappage> {
     PolylinePoints polylinePoints=PolylinePoints();
 
     PolylineResult result=await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyBNoncI64Dy_4R6qcNki-fPDFd5F0bav2U",
+      "Google api",
       PointLatLng(sourceLocation.latitude,sourceLocation.longitude),
       PointLatLng(destinationLocation.latitude, destinationLocation.longitude),
       travelMode: TravelMode.driving
